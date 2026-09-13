@@ -1,0 +1,7 @@
+all:
+	tar xvf autograde.tar
+	(mkdir tmp; cd tmp; tar xvf ../handin.tar; cp LinearEquation.java QuadraticEquation.java ../abstractclasses-handout)
+	(cd abstractclasses-handout; sh driver.sh)
+
+clean:
+	rm -rf *~ abstractclasses-handout

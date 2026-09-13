@@ -1,0 +1,87 @@
+/**
+ * Encapulates a time duration.
+ * @author Balaji Srinivasan
+ */
+public class Duration {
+    private int hours;
+    private int minutes;
+
+    /**
+     * Creates a duration of 0 hours and 0 minutes.
+     */
+    public Duration() {
+        throw new UnsupportedOperationException("Not implemented.");
+    }
+
+    /**
+     * Creates a Duration with the given hours and minutes.
+     * @param hours The hours for this duration.
+     * @param minutes The minutes for this duration.
+     * @throws InvalidArgumentException if the hours is < 0, or if minutes is
+     *                                  not between 0-59
+     */
+    public Duration(int hours, int minutes) {
+        throw new UnsupportedOperationException("Not implemented.");
+    }
+
+    /**
+     * Returns the hours of this duration.
+     * @returns The hours of this duration
+     */
+    public int getHours() {
+        throw new UnsupportedOperationException("Not implemented.");
+    }
+    
+    /**
+     * Returns the minutes of this duration.
+     * @returns The minutes of this duration.
+     */
+    public int getMinutes() {
+        throw new UnsupportedOperationException("Not implemented.");
+    }
+
+    /** 
+     * Sets the hours
+     * @param hours The hours to set this duration to.
+     * @throws IllegalArgumentException if the hours < 0.
+     */
+    public void setHours(int hours) {
+        throw new UnsupportedOperationException("Not implemented.");
+    }
+
+    /**
+     * Set the minutes of this duration.
+     * @param minutes The minutes to set this duration to.
+     * @throws IllegalArgumentException If passed in minutes is not in between 0-59.
+     */
+    public void setMinutes(int minutes) {
+        throw new UnsupportedOperationException("Not implemented.");
+    }
+
+    /**
+     * Returns a string representation of this duration object in hh:mm format.
+     * @returns The string representation.
+     */
+    @Override
+    public String toString() {
+        throw new UnsupportedOperationException("Not implemented.");
+    }
+
+    /**
+     * Parses a string of the form hh:mm and returns a Duration object.
+     * @param duration The string representation of the duration in hh:mm format.
+     * @return The Duration object.
+     * @throws IllegalArgumentException if the string is invalid.
+     */
+    public static Duration fromString(String duration) {
+        throw new UnsupportedOperationException("Not implemented.");
+    }
+
+    /** 
+     * Adds the passed in duration to this Duration object
+     * @param duration The duration object.
+     */
+    public void add(Duration duration) {
+        throw new UnsupportedOperationException("Not implemented.");
+    }
+}

@@ -1,0 +1,39 @@
+---
+general:
+  name: abstractclasses
+  description: ''
+  display_name: AbstractClasses 
+  handin_filename: handin.tar
+  handin_directory: handin
+  max_grace_days: 0
+  handout: abstractclasses-handout.tar
+  writeup:
+  max_submissions: -1
+  disable_handins: false
+  max_size: 2
+  has_svn: false
+  category_name: Lab
+problems:
+- name: Correctness
+  description: ''
+  max_score: 100.0
+  optional: false
+- description: Comments on the submission from the instructor
+  max_score: 0.0
+  name: Comments
+  optional: true
+autograder:
+  autograde_timeout: 180
+  autograde_image: autograding_image_full
+  release_score: true
+
+
+
+
+
+dates:
+  # Date parameters added by YamlDateUpdater
+  start_at: "2026-06-12 00:00:00 -0800"
+  due_at: "2026-06-18 23:59:59 -0800"
+  end_at: "2026-06-25 23:59:59 -0800"
+  grading_deadline: "2026-06-25 23:59:59 -0800"

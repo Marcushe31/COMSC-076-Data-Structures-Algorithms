@@ -1,0 +1,19 @@
+/**
+ * TODO: Add description of this class including your author name.
+ */
+public class Duration {
+    // TODO: Add private properties for hours and minutes
+    // TODO: Document all methods below in javadoc format including @param,
+    //       @return, and @throws tags.
+    // TODO: Add a public no-arg constructor
+    // TODO: Add a public two parameter constructor. Should throw an
+    //       InvalidArgumentException if the passed in parameters are invalid.
+    // TODO: Add accessors and mutators for the private properties
+    // TODO: Add toString method that returns the duration in hh:mm format
+    // TODO: Add a static fromString methods that takes in a string of the form hh:mm
+    //       and returns a Duration object. Should throw an 
+    //       InvalidArgumentException exception if the string cannot be parsed
+    //       or if the values are invalid.
+    // TODO: Add a add method that takes in a Duration object and adds to "this"
+    //       object.
+}

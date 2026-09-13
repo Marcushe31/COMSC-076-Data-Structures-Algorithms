@@ -1,0 +1,43 @@
+/**
+ * Put in a javadoc comment about this class. Include @author tag.
+ */
+public class LinearEquation extends Equation {
+    /**
+     * Creates a linear equation with the given coefficients
+     * TODO: Put in the correct @param clause.
+     */
+    public LinearEquation(double a, double b) {
+        // TODO: Implement this method.
+        throw new UnsupportedOperationException("Not supported yet.");
+    }
+
+    /**
+     * Creates a linear equation with two coefficients.
+     * TODO: Put in the correct description of params and throws clause in javadoc.
+     */
+    public LinearEquation(double[] coefficients) {
+        /* TODO: Complete this method. NOTE: This method should throw an 
+         * InvalidArgumentException if the passed in coefficients are invalid
+         */
+        throw new UnsupportedOperationException("Not supported yet.");
+    }
+
+    /**
+     * TODO: Finds the solution for the linear equation.
+     * Add an @return tag that shows how many solutions would be there etc.
+     */
+    @Override
+    public double[] findSolution() {
+        // TODO: Implement this method.
+        throw new UnsupportedOperationException("Not supported yet.");
+    }
+
+    /**
+     * TODO: Add a description for this method.
+     */
+    @Override
+    public String toString() {
+        // TODO: Implement this method.
+        throw new UnsupportedOperationException("Not supported yet.");
+    }
+}

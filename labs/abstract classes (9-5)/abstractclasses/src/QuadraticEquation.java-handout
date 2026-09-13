@@ -1,0 +1,39 @@
+public class QuadraticEquation extends Equation {
+    /**
+     * Creates a quadratic equation with the given coefficients.
+     * TODO: Put in the correct @param clause.
+     */
+    public QuadraticEquation(double a, double b, double c) {
+        // TODO: Implement this method.
+        super(null); // TODO: Fix this line also.
+        throw new UnsupportedOperationException("Not supported yet.");
+    }
+
+    /**
+     * Creates a quadratic equation with three coefficients.
+     * TODO: Put in the correct description of params and throws clause in javadoc.
+     */
+    public QuadraticEquation(double[] coefficients) {
+        /* TODO: Complete this method. NOTE: This method should throw an 
+         * InvalidArgumentException if the passed in coefficients are invalid
+         */
+    }
+
+    /**
+     * TODO: Add a description here including @return tag.
+     */
+    @Override
+    public double[] findSolution() {
+        // TODO: Implement this method.
+        throw new UnsupportedOperationException("Not supported yet.");
+    }
+
+    /**
+     * TODO: Add a description for this method.
+     */
+    @Override
+    public String toString() {
+        // TODO: Implement this method.
+        throw new UnsupportedOperationException("Not supported yet.");
+    }
+}

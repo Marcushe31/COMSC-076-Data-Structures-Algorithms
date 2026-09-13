@@ -1,0 +1,7 @@
+all:
+	tar xvf autograde.tar
+	(mkdir tmp; cd tmp; tar xvf ../handin.tar; cp Rectangle.java Triangle.java Circle.java ../interfaces-handout)
+	(cd interfaces-handout; sh driver.sh)
+
+clean:
+	rm -rf *~ interfaces-handout

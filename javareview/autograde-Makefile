@@ -1,0 +1,7 @@
+all:
+	tar xvf autograde.tar
+	cp Duration.java javareview-handout
+	(cd javareview-handout; sh driver.sh)
+
+clean:
+	rm -rf *~ javareview-handout
