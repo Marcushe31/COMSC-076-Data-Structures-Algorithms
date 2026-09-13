@@ -73,11 +73,11 @@ public class AlgorithmAnalysis {
         System.out.println("-------------------------");
 
         System.out.println("Size, Time(second)");
-        System.out.println("10000," + measure(l1, 10000));
-        System.out.println("100000," + measure(l2, 100000));
-        System.out.println("250000," + measure(l3, 250000));
-        System.out.println("750000," + measure(l4, 750000));
-        System.out.println("1000000," + measure(l5, 1000000));
+        System.out.println("10000, " + measure(l1, 10000));
+        System.out.println("100000, " + measure(l2, 100000));
+        System.out.println("250000, " + measure(l3, 250000));
+        System.out.println("750000, " + measure(l4, 750000));
+        System.out.println("1000000, " + measure(l5, 1000000));
 
         System.out.println("-------------------------");
     }
